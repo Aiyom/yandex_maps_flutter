@@ -2598,7 +2598,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: ElevatedButton.icon(
           onPressed: () async {
             const String apiKey = 'API_KEY'; // UUID4 format
-            await init.initMapkit(apiKey: apiKey, locale: 'ru');
+            await init.initMapkit(apiKey: apiKey, locale: 'ru_RU');
             Navigator.push(
               context,
               MaterialPageRoute(
